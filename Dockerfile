@@ -4,7 +4,7 @@ RUN apt update
 RUN apt install python3 -y
 RUN mkdir test
 WORKDIR test/
-COPY main.py ./
+COPY . ./
 
 RUN chmod u+x /test/entrypoint.sh
 RUN chmod 777 /test/entrypoint.sh

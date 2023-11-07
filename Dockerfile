@@ -1,4 +1,5 @@
 FROM ubuntu:20.04
+USER root
 RUN apt update 
 RUN apt install python3 -y
 RUN mkdir test

@@ -1,2 +1,2 @@
 TEMP=$1
-$TEMP
+python3 $TEMP

@@ -11,4 +11,4 @@ RUN chmod u+x /test/entrypoint.sh
 RUN chmod 777 /test/entrypoint.sh
 #define entry point to start this shell once Docker run command is triggered
 #ENTRYPOINT ["/bin/bash","./entrypoint.sh"]
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/bin/bash","./entrypoint.sh"]

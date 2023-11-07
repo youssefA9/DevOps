@@ -1,5 +1,4 @@
-FROM openjdk:11
+FROM ubuntu:20.04
+RUN apt-get update && apt-get install -y python3.9 python3.9-dev
 WORKDIR /test
-COPY hello.java ./
-RUN javac hello.java
-CMD java hello
+CMD python main.py

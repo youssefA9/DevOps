@@ -17,7 +17,7 @@
             }
         }
       
-        stage ('Run Jmeter Docker') {
+        stage ('Run Python Docker') {
             steps {
 				script{
                 bat 'docker run -v c:\\ProgramData\\Jenkins\\.jenkins\\workspace\\results:/data task7'

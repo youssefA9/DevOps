@@ -1,2 +1,2 @@
 TEMP=$1
-"python3" $TEMP
+"python3" ${TEMP:1}

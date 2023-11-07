@@ -1,3 +1,3 @@
 #!/bin/sh
 TEMP=$1
-python3 ${TEMP:0}
+python3 main.py

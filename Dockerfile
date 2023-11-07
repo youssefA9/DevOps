@@ -1,5 +1,6 @@
 FROM ubuntu:20.04
-RUN apt-get update && apt-get install -y python3.9 python3.9-dev
+RUN apt update 
+RUN apt install python3 -y
 WORKDIR /test
 COPY main.py ./
 CMD ["python3", "main.py"]

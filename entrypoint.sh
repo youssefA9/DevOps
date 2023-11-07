@@ -1,8 +1,7 @@
-SMOKE_RESULTS="result.csv"
-LOG_FILE="log.log"
+
 	
 
-"python3" $1
+python3 $1
 
 #jmeter -n -t opensource-orangehrmlive.jmx \ -l /data/$SMOKE_RESULTS -j /data/$LOG_FILE
 	
